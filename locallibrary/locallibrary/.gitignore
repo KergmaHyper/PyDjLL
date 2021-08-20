@@ -1,1 +1,9 @@
+# created by virtualenv automatically
+*.pyc
+testP/
+Scripts/
+include/
+Lib/
+Scripts/
 __pycache__/
+*.cfg
