@@ -1,5 +1,13 @@
 # created by virtualenv automatically
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+#
 Lib/
 Scripts/
 testP/
 pyvenv.cfg
+*.pyc
+*/**/*.pyc
+
