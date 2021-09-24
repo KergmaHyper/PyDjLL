@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Lobster&family=Oswald:wght@700&display=swap');
+
+html {
+    background-color: #080810;
+    color: darkgray;
+}
+body {
+    width: 600px;
+    margin: 20px auto;
+    background-color: #884300;
+    paging: 20px 20px 20px 20px;
+    border: 5px solid yellow;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 5px;
+}
+
+p  {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+li {
+    font-family: 'Hachi Maru Pop', cursive;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+.fntred {
+    color: red;
+ }
