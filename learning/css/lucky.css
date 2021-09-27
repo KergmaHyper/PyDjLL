@@ -1,0 +1,24 @@
+html {
+    background-color: black;
+}
+body {
+    background-color: grey;
+    width: 80%;
+    margin: 0em auto;
+    border: 3px solid green;
+    border-radius: 30px;
+    padding: 0;
+   {*    *}
+}
+
+h1 {
+ text-align: center;
+ font-size: 40px;
+ color: yellow;
+ background-color: blue;
+ width: 170px;
+
+ margin: 0 auto;
+ border-radius: 150px;
+ padding: 80px 20px;
+}

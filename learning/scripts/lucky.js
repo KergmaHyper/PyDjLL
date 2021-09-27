@@ -1,0 +1,1 @@
+// https://developer.mozilla.org/ru/docs/Learn/JavaScript/First_steps/A_first_splash
