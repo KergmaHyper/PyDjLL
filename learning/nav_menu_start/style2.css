@@ -11,6 +11,16 @@ body {
     paging: 20px 20px 20px 20px;
     border: 5px solid yellow;
 }
+@media (max-width: 600px){
+ body {
+ width: 95%;
+    margin: 5px auto;
+    background-color: #a86320;
+    paging: 0;
+    border: 3px solid pink;
+ }
+
+}
 
 h1 {
     text-align: center;
@@ -41,6 +51,31 @@ li {
     padding: 0 0 0 20px ;
  }
 
+.add_p {
+        color: green;
+}
+
+#ch_user {
+    font-size: 1em;
+    color: yellow;
+    background-color: blue;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+
+#ch_user:hover {
+    color: white;
+    background-color: darkblue;
+    border: 2px solid white;
+}
+
+#ch_user:active {
+    color: gray;
+    border-color: gray;
+}
+
  img {
   display: block;
   margin: 0 auto;
@@ -59,4 +94,7 @@ li {
   padding: 3px 10px;
   display: inline-block;
   cursor:pointer;
+}
+li em {
+  color: rebeccapurple;
 }

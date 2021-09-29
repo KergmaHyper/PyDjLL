@@ -1,0 +1,39 @@
+html {
+    background-color: black;
+    color: gray;
+}
+body {
+ font-size: 2em;
+}
+p,
+ul {
+    background-color: #202020;
+    border: 2px solid #600060;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+li {
+    border: 1px solid #006060;
+    font-size: 150%;
+    background-color: #200020;
+    width: 150px;
+    height: 60px;
+    text-align: center;
+}
+
+li:hover {
+    background-color: #400040;
+}
+
+.block {
+    display: block;
+    border: 1px solid #000080;
+}
+
+.bold {
+    color: yellow;
+}

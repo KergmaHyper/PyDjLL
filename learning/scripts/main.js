@@ -31,9 +31,39 @@ document.addEventListener("DOMContentLoaded", function() {
     document.body.appendChild(para);
   }
 
-  const buttons = document.querySelectorAll('button');
+  const buttons = document.querySelectorAll('.add_p');
 
   for(let i = 0; i < buttons.length ; i++) {
     buttons[i].addEventListener('click', createParagraph);
   }
 });
+const img1 = document.querySelector('img');
+
+img1.onclick = function(){
+ let src1 = img1.getAttribute('src')
+  if (src1 === './assets/favorite-1_th.jpg') {
+        img1.setAttribute('src',"./assets/favorite-2_th.jpg");
+        } else {
+        img1.setAttribute('src','./assets/favorite-1_th.jpg');
+        }
+}
+
+const but_ch_user = document.getElementById('ch_user');
+var myHead = document.querySelector('h1');
+
+function setUserName(){
+    let usrName = prompt("Set user name:");
+    localStorage.setItem('name', usrName);
+    myHead.textContent = "Mozzila say hello - " + usrName;
+}
+
+but_ch_user.onclick = function(){
+        setUserName();
+}
+
+if (localStorage.getItem('name')){
+    let usrName = localStorage.getItem('name');
+    myHead.textContent = "Mozzila say hello - " + usrName
+} else {
+    setUserName();
+}
