@@ -12,28 +12,29 @@ ul {
 }
 
 ul {
-    display: flex;
+    display: inline-flex;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 li {
-    border: 1px solid #006060;
+    border: 5px ridge #006060;
     font-size: 150%;
-    background-color: #200020;
+    background-color: rgba(50,0,50,0.5);
     width: 150px;
     height: 60px;
     text-align: center;
 }
 
-li:hover {
-    background-color: #400040;
-}
+li:hover {    background-color: rgba(50,0,50,1);}
 
 .block {
     display: block;
-    border: 1px solid #000080;
-}
+    border: 5px solid #000080;}
 
 .bold {
-    color: yellow;
+    color: yellow;}
+p {
+    display: block;
 }
