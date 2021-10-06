@@ -74,3 +74,22 @@ function resetGame() {
 
   randomNumber = Math.floor(Math.random() * 100) + 1;
 }
+
+var run_bttn = document.getElementById('stbt');
+var run_msg = document.getElementById('stp');
+var div_eng = document.getElementById('Eng');
+div_eng.style.background = 'darkgreen';
+
+run_bttn.addEventListener('click', stbtClick);
+
+function stbtClick() {
+if (run_bttn.textContent === 'Start eng.') {
+            run_bttn.textContent = 'Stop eng.';
+            run_msg.textContent = 'Eng. is RUN';
+            div_eng.style.background = 'green';
+            } else {
+            run_bttn.textContent = 'Start eng.';
+            run_msg.textContent = 'Eng. is STOP';
+            div_eng.style.background = 'darkgreen';
+            }
+}
